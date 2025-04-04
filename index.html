@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="start">
       <nav>
         <ul class="header__links-list">
-          <li class="header__links-list-item_no-bullit">
+          <li class="header__links-list-item header__links-list-item_no-bullit">
             <a class="header__link header__link_active">главная</a>
           </li>
           <li class="header__links-list-item">
@@ -31,9 +31,9 @@
           alt="Логотип проекта"
         />
       </a>
-      <address class="contacts header__address">
-        <a class="header__link" href="tel:+99995555555">+9 999 555 5555</a>
-        <a class="header__link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+      <address class="contacts header__contacts">
+        <a class="contacts__link" href="tel:+99995555555">+9 999 555 5555</a>
+        <a class="contacts__link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <p>наб. Принсенграхт 263- 265, Амстердам</p>
       </address>
     </header>
@@ -44,8 +44,7 @@
           <span class="accent-span">оно</span>
           <span class="accent-span text-center">тебе</span>
           <span class="accent-span text-right"
-            >над<span class="no-letter-spacing">о</span></span
-          >
+            >над<span class="no-letter-spacing">о</span></span>
         </h1>
         <div class="cover__description">
           <p class="cover__description-text">
@@ -113,42 +112,40 @@
         <div class="about__logo">
           <img
             class="about__logo-image"
-            src="/images/logo-white.svg"
+            src="./images/logo-white.svg"
             alt="логотип проекта"
           />
         </div>
         <div class="about__column">
           <h2 class="about__title">Об аукционе</h2>
           <p class="about__text">
-            Здесь вы не встретите очередное пафосное собрание невероятно дорогого
-            антиквариата. Наши лоты вообще не должны были попасть ни на один
-            аукцион. Потому что кому нужен дневник девочки-подростка или картина,
-            которую может нарисовать даже ребёнок? Кому нужны все эти странные
-            вещи, созданные любителями? 
-            <br /><br />
-            Слишком сложные или, наоборот,
-            слишком простые. Опережающие своё время. В пух и прах растерзанные
-            критиками. Непринятые и непонятые. Когда-то они казались просто
-            неудачными. Но, несмотря на критику, кажущуюся простоту или сложность,
-            сейчас без этих лотов невозможно представить современную культуру.
-            Когда в эти вещи не верил никто, продолжали верить их создатели. И
-            сейчас эти лоты стали культовыми.
+            Здесь вы не встретите очередное пафосное собрание невероятно
+            дорогого антиквариата. Наши лоты вообще не должны были попасть ни на
+            один аукцион. Потому что кому нужен дневник девочки-подростка или
+            картина, которую может нарисовать даже ребёнок? Кому нужны все эти
+            странные вещи, созданные любителями?
+          </p>
+          <p class="about__text">
+            Слишком сложные или, наоборот, слишком простые. Опережающие своё
+            время. В пух и прах растерзанные критиками. Непринятые и непонятые.
+            Когда-то они казались просто неудачными. Но, несмотря на критику,
+            кажущуюся простоту или сложность, сейчас без этих лотов невозможно
+            представить современную культуру. Когда в эти вещи не верил никто,
+            продолжали верить их создатели. И сейчас эти лоты стали культовыми.
           </p>
         </div>
       </section>
     </main>
     <footer class="footer">
       <address class="contacts footer__contacts">
-        <a class="footer__link" href="tel:+99995555555">+9 999 555 5555</a>
-        <br />
-        <a class="footer__link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        <br />
+        <a class="contacts__link" href="tel:+99995555555">+9 999 555 5555</a>
+        <a class="contacts__link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <p>наб. Принсенграхт 263- 265, Амстердам</p>
       </address>
       <nav class="footer__menu">
         <ul class="footer__menu-list">
           <li class="footer__menu-list-item">
-            <a class="footer__menu-link footer__menu-link_active">главная</a>
+            <a class="footer__menu-link footer__menu-link_active" href="#start">главная</a>
           </li>
           <li class="footer__menu-list-item">
             <a class="footer__menu-link" href="#lots">посмотреть лоты</a>
@@ -164,7 +161,7 @@
             <img
               class="footer__social-icon"
               alt="иконка youtube"
-              src="/images/yt.svg"
+              src="./images/yt.svg"
             />
           </a>
         </li>
@@ -173,7 +170,7 @@
             <img
               class="footer__social-icon"
               alt="иконка vk"
-              src="/images/vk.svg"
+              src="./images/vk.svg"
             />
           </a>
         </li>
@@ -182,7 +179,7 @@
             <img
               class="footer__social-icon"
               alt="иконка pinterest"
-              src="/images/pinterest.svg"
+              src="./images/pinterest.svg"
             />
           </a>
         </li>
