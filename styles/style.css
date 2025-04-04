@@ -28,9 +28,9 @@
   list-style-type: none;
 }
 
-.header__link { 
-  border-bottom: 1px solid #000000; 
-  text-decoration: none; 
+.header__link {
+  border-bottom: 1px solid #000000;
+  text-decoration: none;
 } 
 
 .header__link:hover {
@@ -44,7 +44,7 @@
   display: block;
 }
 
-.header__logo-image {  
+.header__logo-image {
   width: 148px;
   max-height: 105px;
 }
@@ -59,7 +59,7 @@
 }
 
 .header__contacts {
-  justify-self: end; 
+  justify-self: end;
   max-width: 240px;
 }
 
